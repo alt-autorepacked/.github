@@ -7,5 +7,11 @@
 Универсальная команда:
 
 ```
+# curl -sL gcli.ru/alt-ar | sh
+```
+
+или
+
+```
 # epm repo add "rpm https://alt-autorepacked.slipenko.com/repo/$(epm print info -r) $(epm print info -a) addon"
 ```
